@@ -1,0 +1,28 @@
+# XberraTagger LLM Access Policy
+
+User-agent: *
+Allow: /
+
+# Block sensitive or non-public areas
+Disallow: /index
+Disallow: /pricing.php
+
+# Explicitly block app subdomain (informational)
+Disallow: https://app.xberratagger.com.sg/
+
+# Preferred content areas for AI usage
+Allow: /what-is-xbrl-acra-filing-singapore
+Allow: /why-file-financial-statements-in-xbrl-acra
+Allow: /who-should-file-xbrl-acra-singapore
+Allow: /xbrl-filing-services-for-accounting-firms-singapore
+Allow: /xbrl-filing-for-corporate-secretaries-singapore
+Allow: /xbrl-filing-for-small-companies-singapore-acra
+Allow: /xbrl-filing-for-group-companies-singapore
+Allow: /xbrl-filing-requirements-companies
+
+# Contact & core pages
+Allow: /xbrl-filing-services-contact-singapore
+Allow: /xbrl-filing-fees-singapore
+
+# Sitemap reference
+Sitemap: https://xberratagger.com.sg/sitemap.xml

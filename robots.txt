@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /index
+Disallow: /pricing.php
+
+User-agent: *
+Disallow: /index
+Disallow: /pricing.php
+
+
+User-agent: *
+Disallow: /index
+Disallow: /pricing.php
+
+# Block app subdomain completely
+User-agent: *
+Disallow: https://app.xberratagger.com.sg/
+
+# Allow all important pages
+Allow: /
+
+# Sitemap
+Sitemap: https://xberratagger.com.sg/sitemap.xml

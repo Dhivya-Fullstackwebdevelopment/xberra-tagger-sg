@@ -1,0 +1,213 @@
+.blog-sec{
+    padding: 4rem 0;
+}
+
+.blog-card h3 {
+    font-size: 20px;
+
+}
+.blog-card p {
+    font-size: 15px;
+}
+.blog-card img {
+    width: 100%; height: 240px; 
+  object-fit: fill;
+
+}
+
+.blog-title {
+  color: #000000 !important;
+  line-height: 1.3em;
+  font-size: 1.5625rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: "Roboto", Sans-serif;
+}
+
+.blog-subheading {
+  color: #1e293b;
+  font-family: "Roboto", Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.blog-main-content p {
+  margin-bottom: 1.6em;
+  color: #350707;
+  font-size: 16px;
+}
+.blog-main-content li::marker {
+  display: none;
+}
+.blog-main-content li {
+  margin-bottom: 0.2em;
+  color: #350707;
+  font-size: 16px;
+}
+.blog-main-content table{
+    margin-bottom: 1rem;
+}
+.blog-main-content table,
+td,
+th {
+  border: 1px solid #d1d5db;
+  border-collapse: collapse;
+  color:#350707;
+}
+.blog-main-content 
+td,
+th {
+  border: 1px solid #d1d5db !important;
+
+padding:11px 15px;
+}
+.blog-main-content a {
+  color: #c01616;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+/* ── Banner font ── */
+.banner-font {
+  font-size: 28px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .banner-font { font-size: 24px; }
+}
+@media (max-width: 1250px) {
+  .banner-font { font-size: clamp(16px, 2vw, 22px); }
+}
+
+/* ── Blog title ── */
+.blog-title {
+  font-size: 32px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .blog-title { font-size: 27px; }
+}
+@media (max-width: 1250px) {
+  .blog-title { font-size: clamp(20px, 2.5vw, 26px); }
+}
+
+/* ── Blog intro ── */
+.blog-intro {
+  font-size: 18px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .blog-intro { font-size: 16px; }
+}
+@media (max-width: 1250px) {
+  .blog-intro { font-size: clamp(14px, 1.5vw, 15px); }
+}
+
+/* ── Blog text headings ── */
+.blog-text h3 {
+  font-size: 28px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .blog-text h3 { font-size: 23px; }
+}
+@media (max-width: 1250px) {
+  .blog-text h3 { font-size: clamp(18px, 2vw, 22px); }
+}
+
+/* ── Blog text body ── */
+.blog-text p {
+  font-size: 16px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .blog-text p { font-size: 15px; }
+}
+@media (max-width: 1250px) {
+  .blog-text p { font-size: clamp(13px, 1.4vw, 15px); }
+}
+
+/* ── Section title ── */
+.section-title {
+  font-size: clamp(2rem, 4vw, 2.5rem); /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .section-title { font-size: 2rem; }
+}
+@media (max-width: 1250px) {
+  .section-title { font-size: clamp(1.4rem, 2.5vw, 1.9rem); }
+}
+
+/* ── Content card heading ── */
+.content-card h5 {
+  font-size: clamp(1.1rem, 2vw, 1.25rem); /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .content-card h5 { font-size: 1.1rem; }
+}
+@media (max-width: 1250px) {
+  .content-card h5 { font-size: clamp(0.9rem, 1.4vw, 1.05rem); }
+}
+
+/* ── Content card body ── */
+.content-card p {
+  font-size: clamp(0.85rem, 1.5vw, 0.95rem); /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .content-card p { font-size: 0.88rem; }
+}
+@media (max-width: 1250px) {
+  .content-card p { font-size: clamp(0.78rem, 1.2vw, 0.86rem); }
+}
+
+/* ── Side title ── */
+.side-title {
+  font-size: 16px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .side-title { font-size: 14px; }
+}
+@media (max-width: 1250px) {
+  .side-title { font-size: clamp(12px, 1.2vw, 14px); }
+}
+
+/* ── Feature list ── */
+.feature-list li {
+  font-size: 15px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .feature-list li { font-size: 14px; }
+}
+@media (max-width: 1250px) {
+  .feature-list li { font-size: clamp(12px, 1.2vw, 13px); }
+}
+
+/* ── Sidebar headings ── */
+.sidebar-box h5 {
+  font-size: 1rem; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .sidebar-box h5 { font-size: 0.95rem; }
+}
+@media (max-width: 1250px) {
+  .sidebar-box h5 { font-size: clamp(0.82rem, 1.2vw, 0.92rem); }
+}
+
+/* ── Sidebar links ── */
+.sidebar-box ul li a {
+  font-size: 0.9rem; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .sidebar-box ul li a { font-size: 0.85rem; }
+}
+@media (max-width: 1250px) {
+  .sidebar-box ul li a { font-size: clamp(0.78rem, 1.1vw, 0.83rem); }
+}
+
+/* ── Hero button ── */
+.sghero-btn {
+  font-size: 16px; /* >1400px */
+}
+@media (max-width: 1400px) and (min-width: 1251px) {
+  .sghero-btn { font-size: 14px; }
+}
+@media (max-width: 1250px) {
+  .sghero-btn { font-size: clamp(13px, 1.3vw, 14px); }
+}

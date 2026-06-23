@@ -1,0 +1,26 @@
+
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# Redirect 301 /sg/ https://www.xberratagger.com.sg/
+Redirect 301 /sg/about/ https://xberratagger.com.sg/xbrl-services-provider-singapore-about
+Redirect 301 /sg/pricing/ https://xberratagger.com.sg/xbrl-filing-fees-singapore
+Redirect 301 /sg/contact/ https://xberratagger.com.sg/xbrl-filing-services-contact-singapore
+
+Redirect 301 /xbrl-services-provider https://xberratagger.com.sg/xbrl-services-provider-singapore-about 
+Redirect 301 /xbrl-for-accounting-firms https://xberratagger.com.sg/xbrl-filing-services-for-accounting-firms-singapore
+Redirect 301 /xbrl-for-corporate-secretaries https://xberratagger.com.sg/xbrl-filing-for-corporate-secretaries-singapore 
+Redirect 301 /xbrl-for-small-companies https://xberratagger.com.sg/xbrl-filing-for-small-companies-singapore-acra 
+Redirect 301 /xbrl-for-group-companies https://xberratagger.com.sg/xbrl-filing-for-group-companies-singapore
+Redirect 301 /singapore-companies https://xberratagger.com.sg/xbrl-filing-requirements-singapore-companies 
+Redirect 301 /pricing https://xberratagger.com.sg/xbrl-filing-fees-singapore 
+Redirect 301 /xbrl-services-contact https://xberratagger.com.sg/xbrl-filing-services-contact-singapore 
+Redirect 301 /what-is-xbrl https://xberratagger.com.sg/what-is-xbrl-acra-filing-singapore 
+Redirect 301 /why-file-in-xbrl https://xberratagger.com.sg/why-file-financial-statements-in-xbrl-acra
+Redirect 301 /who-should-file-in-xbrl https://xberratagger.com.sg/who-should-file-xbrl-acra-singapore
+
